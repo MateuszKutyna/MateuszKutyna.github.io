@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+        <script src="sketch.js"></script>
+        <script src="GoL.js"></script>
+        <script src="Cell.js"></script>
+        <link rel="stylesheet" type="text/css" href="./colors.css" />
+
+    </head>
+    <body>
+        <div class="TOP">
+            <label for="x-axis">x:</label>
+            <input type="text" id="x-axis" value="10"><br><br>
+            <label for="y-axis">y:</label>
+            <input type="text" id="y-axis" value="10"><br><br>
+            <select id="structure">
+                <option value="niezmienne">Niezmienne</option>
+                <option value="glider">Glider</option>
+                <option value="oscylator">Oscylator</option>
+                <option value="losowy">Losowy</option>
+                <option value="Reczna definicja">Reczna definicja</option>
+              </select>
+            
+            <button type="button"  onclick="start(this.id)" id="Start/stop">Start/Stop</button>
+
+        </div>
+        
+    </body>
+</html>
